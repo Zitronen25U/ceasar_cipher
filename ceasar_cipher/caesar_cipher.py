@@ -1,7 +1,7 @@
-from ceasar_cipher.corpus_loader import word_list, name_list
+# from ceasar_cipher.corpus_loader import word_list, name_list
 
 
-from ntlk import words, names
+# from ntlk import words, names
 
 def encrypt(plain, key):
 
