@@ -145,6 +145,14 @@ tgrep = ["pyparsing"]
 twitter = ["twython"]
 
 [[package]]
+name = "ntlk"
+version = "1.0.3"
+description = "This package was made by a security researcher to stop NLTK typosquatting"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "numpy"
 version = "1.20.3"
 description = "NumPy is the fundamental package for array computing with Python."
@@ -276,7 +284,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "60b7387731f5a9606e453bda3bd18a6ff1eb8476cf19269297bc1f91b28799a3"
+content-hash = "770a7da816c97f9916edb12d8b538b104babad50735eb439690fbc7cb4c997ef"
 
 [metadata.files]
 appdirs = [
@@ -329,6 +337,9 @@ mypy-extensions = [
 nltk = [
     {file = "nltk-3.6.2-py3-none-any.whl", hash = "sha256:240e23ab1ab159ef9940777d30c7c72d7e76d91877099218a7585370c11f6b9e"},
     {file = "nltk-3.6.2.zip", hash = "sha256:57d556abed621ab9be225cc6d2df1edce17572efb67a3d754630c9f8381503eb"},
+]
+ntlk = [
+    {file = "ntlk-1.0.3.tar.gz", hash = "sha256:3dcc7b533fa7f74507d3ed01bf81d1b009933fadd5ac7e41948513cf73028f8e"},
 ]
 numpy = [
     {file = "numpy-1.20.3-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:70eb5808127284c4e5c9e836208e09d685a7978b6a216db85960b1a112eeace8"},
